@@ -16,6 +16,20 @@
 		B6A2AE3413D5EC8200B5466F /* RoboBrrdFoodViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE3313D5EC8200B5466F /* RoboBrrdFoodViewController.h */; };
 		B6A2AE3613D5EC8200B5466F /* RoboBrrdFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2AE3513D5EC8200B5466F /* RoboBrrdFoodViewController.m */; };
 		B6A2AE3913D5EC8300B5466F /* RoboBrrdFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE3713D5EC8300B5466F /* RoboBrrdFoodViewController.xib */; };
+		B6A2AE4613D5FAF200B5466F /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE4013D5FAF200B5466F /* banana.png */; };
+		B6A2AE4913D5FAF200B5466F /* robobrrd-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE4313D5FAF200B5466F /* robobrrd-pic.jpg */; };
+		B6A2AE5213D614E400B5466F /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE5013D614E400B5466F /* crunch.wav */; };
+		B6A2AE5313D614E400B5466F /* rustle.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE5113D614E400B5466F /* rustle.wav */; };
+		B6A2AE5513D6154800B5466F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A2AE5413D6154800B5466F /* AudioToolbox.framework */; };
+		B6A2AE5713D6155000B5466F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A2AE5613D6154F00B5466F /* ExternalAccessory.framework */; };
+		B6A2AE5913D6176500B5466F /* belch.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE5813D6176500B5466F /* belch.wav */; };
+		B6A2AE6013D61A1C00B5466F /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A2AE5F13D61A1C00B5466F /* libRscMgrUniv.a */; };
+		B6A2AE6313D6253300B5466F /* RedLight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE6113D6253300B5466F /* RedLight.png */; };
+		B6A2AE6413D6253300B5466F /* GreenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE6213D6253300B5466F /* GreenLight.png */; };
+		B6A2AE6913D6446B00B5466F /* blueberry.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE6513D6446B00B5466F /* blueberry.png */; };
+		B6A2AE6A13D6446B00B5466F /* raspberry.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE6613D6446B00B5466F /* raspberry.png */; };
+		B6A2AE6B13D6446B00B5466F /* strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE6713D6446B00B5466F /* strawberry.png */; };
+		B6A2AE6C13D6446B00B5466F /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A2AE6813D6446B00B5466F /* watermelon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +37,31 @@
 		B6A2AE2113D5EC8200B5466F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6A2AE2313D5EC8200B5466F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6A2AE2513D5EC8200B5466F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B6A2AE2913D5EC8200B5466F /* RoboBrrdFood-Info.plist */ = {isa = PBXFileReference; path = "RoboBrrdFood-Info.plist"; sourceTree = "<group>"; };
+		B6A2AE2913D5EC8200B5466F /* RoboBrrdFood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoboBrrdFood-Info.plist"; sourceTree = "<group>"; };
 		B6A2AE2B13D5EC8200B5466F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6A2AE2D13D5EC8200B5466F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6A2AE2F13D5EC8200B5466F /* RoboBrrdFood-Prefix.pch */ = {isa = PBXFileReference; path = "RoboBrrdFood-Prefix.pch"; sourceTree = "<group>"; };
-		B6A2AE3013D5EC8200B5466F /* RoboBrrdFoodAppDelegate.h */ = {isa = PBXFileReference; path = RoboBrrdFoodAppDelegate.h; sourceTree = "<group>"; };
+		B6A2AE2F13D5EC8200B5466F /* RoboBrrdFood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoboBrrdFood-Prefix.pch"; sourceTree = "<group>"; };
+		B6A2AE3013D5EC8200B5466F /* RoboBrrdFoodAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoboBrrdFoodAppDelegate.h; sourceTree = "<group>"; };
 		B6A2AE3113D5EC8200B5466F /* RoboBrrdFoodAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoboBrrdFoodAppDelegate.m; sourceTree = "<group>"; };
 		B6A2AE3313D5EC8200B5466F /* RoboBrrdFoodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoboBrrdFoodViewController.h; sourceTree = "<group>"; };
 		B6A2AE3513D5EC8200B5466F /* RoboBrrdFoodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoboBrrdFoodViewController.m; sourceTree = "<group>"; };
 		B6A2AE3813D5EC8300B5466F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RoboBrrdFoodViewController.xib; sourceTree = "<group>"; };
+		B6A2AE4013D5FAF200B5466F /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		B6A2AE4313D5FAF200B5466F /* robobrrd-pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "robobrrd-pic.jpg"; sourceTree = "<group>"; };
+		B6A2AE5013D614E400B5466F /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		B6A2AE5113D614E400B5466F /* rustle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rustle.wav; sourceTree = "<group>"; };
+		B6A2AE5413D6154800B5466F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6A2AE5613D6154F00B5466F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		B6A2AE5813D6176500B5466F /* belch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = belch.wav; path = ../../../Desktop/belch.wav; sourceTree = "<group>"; };
+		B6A2AE5C13D61A1C00B5466F /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		B6A2AE5D13D61A1C00B5466F /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		B6A2AE5F13D61A1C00B5466F /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		B6A2AE6113D6253300B5466F /* RedLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLight.png; sourceTree = "<group>"; };
+		B6A2AE6213D6253300B5466F /* GreenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenLight.png; sourceTree = "<group>"; };
+		B6A2AE6513D6446B00B5466F /* blueberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueberry.png; sourceTree = "<group>"; };
+		B6A2AE6613D6446B00B5466F /* raspberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raspberry.png; sourceTree = "<group>"; };
+		B6A2AE6713D6446B00B5466F /* strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry.png; sourceTree = "<group>"; };
+		B6A2AE6813D6446B00B5466F /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A2AE5713D6155000B5466F /* ExternalAccessory.framework in Frameworks */,
+				B6A2AE5513D6154800B5466F /* AudioToolbox.framework in Frameworks */,
 				B6A2AE2213D5EC8200B5466F /* UIKit.framework in Frameworks */,
 				B6A2AE2413D5EC8200B5466F /* Foundation.framework in Frameworks */,
 				B6A2AE2613D5EC8200B5466F /* CoreGraphics.framework in Frameworks */,
+				B6A2AE6013D61A1C00B5466F /* libRscMgrUniv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +84,9 @@
 		B6A2AE1213D5EC8200B5466F = {
 			isa = PBXGroup;
 			children = (
+				B6A2AE5A13D61A1C00B5466F /* Redpark SDK */,
+				B6A2AE5613D6154F00B5466F /* ExternalAccessory.framework */,
+				B6A2AE5413D6154800B5466F /* AudioToolbox.framework */,
 				B6A2AE2713D5EC8200B5466F /* RoboBrrdFood */,
 				B6A2AE2013D5EC8200B5466F /* Frameworks */,
 				B6A2AE1E13D5EC8200B5466F /* Products */,
@@ -78,11 +114,13 @@
 		B6A2AE2713D5EC8200B5466F /* RoboBrrdFood */ = {
 			isa = PBXGroup;
 			children = (
+				B6A2AE4F13D614E400B5466F /* sounds */,
 				B6A2AE3013D5EC8200B5466F /* RoboBrrdFoodAppDelegate.h */,
 				B6A2AE3113D5EC8200B5466F /* RoboBrrdFoodAppDelegate.m */,
 				B6A2AE3313D5EC8200B5466F /* RoboBrrdFoodViewController.h */,
 				B6A2AE3513D5EC8200B5466F /* RoboBrrdFoodViewController.m */,
 				B6A2AE3713D5EC8300B5466F /* RoboBrrdFoodViewController.xib */,
+				B6A2AE3F13D5FAF200B5466F /* images */,
 				B6A2AE2813D5EC8200B5466F /* Supporting Files */,
 			);
 			path = RoboBrrdFood;
@@ -97,6 +135,57 @@
 				B6A2AE2F13D5EC8200B5466F /* RoboBrrdFood-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6A2AE3F13D5FAF200B5466F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B6A2AE6513D6446B00B5466F /* blueberry.png */,
+				B6A2AE6613D6446B00B5466F /* raspberry.png */,
+				B6A2AE6713D6446B00B5466F /* strawberry.png */,
+				B6A2AE6813D6446B00B5466F /* watermelon.png */,
+				B6A2AE6113D6253300B5466F /* RedLight.png */,
+				B6A2AE6213D6253300B5466F /* GreenLight.png */,
+				B6A2AE4013D5FAF200B5466F /* banana.png */,
+				B6A2AE4313D5FAF200B5466F /* robobrrd-pic.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6A2AE4F13D614E400B5466F /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B6A2AE5013D614E400B5466F /* crunch.wav */,
+				B6A2AE5813D6176500B5466F /* belch.wav */,
+				B6A2AE5113D614E400B5466F /* rustle.wav */,
+			);
+			path = sounds;
+			sourceTree = SOURCE_ROOT;
+		};
+		B6A2AE5A13D61A1C00B5466F /* Redpark SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B6A2AE5B13D61A1C00B5466F /* inc */,
+				B6A2AE5E13D61A1C00B5466F /* lib */,
+			);
+			path = "Redpark SDK";
+			sourceTree = "<group>";
+		};
+		B6A2AE5B13D61A1C00B5466F /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				B6A2AE5C13D61A1C00B5466F /* redparkSerial.h */,
+				B6A2AE5D13D61A1C00B5466F /* RscMgr.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		B6A2AE5E13D61A1C00B5466F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B6A2AE5F13D61A1C00B5466F /* libRscMgrUniv.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +241,17 @@
 				B6A2AE2C13D5EC8200B5466F /* InfoPlist.strings in Resources */,
 				B6A2AE3413D5EC8200B5466F /* RoboBrrdFoodViewController.h in Resources */,
 				B6A2AE3913D5EC8300B5466F /* RoboBrrdFoodViewController.xib in Resources */,
+				B6A2AE4613D5FAF200B5466F /* banana.png in Resources */,
+				B6A2AE4913D5FAF200B5466F /* robobrrd-pic.jpg in Resources */,
+				B6A2AE5213D614E400B5466F /* crunch.wav in Resources */,
+				B6A2AE5313D614E400B5466F /* rustle.wav in Resources */,
+				B6A2AE5913D6176500B5466F /* belch.wav in Resources */,
+				B6A2AE6313D6253300B5466F /* RedLight.png in Resources */,
+				B6A2AE6413D6253300B5466F /* GreenLight.png in Resources */,
+				B6A2AE6913D6446B00B5466F /* blueberry.png in Resources */,
+				B6A2AE6A13D6446B00B5466F /* raspberry.png in Resources */,
+				B6A2AE6B13D6446B00B5466F /* strawberry.png in Resources */,
+				B6A2AE6C13D6446B00B5466F /* watermelon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +343,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RoboBrrdFood/RoboBrrdFood-Prefix.pch";
 				INFOPLIST_FILE = "RoboBrrdFood/RoboBrrdFood-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Redpark SDK/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +358,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RoboBrrdFood/RoboBrrdFood-Prefix.pch";
 				INFOPLIST_FILE = "RoboBrrdFood/RoboBrrdFood-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Redpark SDK/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
