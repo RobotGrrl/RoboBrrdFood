@@ -55,7 +55,7 @@ int count = 0;
 
 #pragma mark - Touches
 
--(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
     UITouch *touch = [[event allTouches] anyObject];
     UIView *touchedView = [touch view];
