@@ -130,6 +130,16 @@ int count = 0;
         SystemSoundID belch;
         AudioServicesCreateSystemSoundID(CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("belch"), CFSTR("wav"), NULL), &belch);
         AudioServicesPlaySystemSound(belch);
+        
+        // TODO: make all views re-appear in original spots
+        
+        for(int i=0; i<[allFruitVC count]; i++) {
+            [[allFruitVC objectAtIndex:i] setFrame:CGRectMake([[fruitPositionsX objectAtIndex:i] floatValue], [[fruitPositionsY objectAtIndex:i] floatValue], 102.0f, 101.0f)];
+            [[allFruitVC objectAtIndex:i] setHidden:NO];
+        }
+        
+        count = 0; 
+        
     }
     
 }
@@ -156,6 +166,11 @@ int count = 0;
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    allFruitVC = [[NSArray alloc] initWithObjects:banana, blueberry, raspberry, strawberry, watermelon, mouth, nil];
+    fruitPositionsX = [[NSArray alloc] initWithObjects:[NSNumber numberWithFloat:banana.frame.origin.x], [NSNumber numberWithFloat:blueberry.frame.origin.x], [NSNumber numberWithFloat:raspberry.frame.origin.x], [NSNumber numberWithFloat:strawberry.frame.origin.x], [NSNumber numberWithFloat:watermelon.frame.origin.x], [NSNumber numberWithFloat:mouth.frame.origin.x], nil];
+    fruitPositionsY = [[NSArray alloc] initWithObjects:[NSNumber numberWithFloat:banana.frame.origin.y], [NSNumber numberWithFloat:blueberry.frame.origin.y], [NSNumber numberWithFloat:raspberry.frame.origin.y], [NSNumber numberWithFloat:strawberry.frame.origin.y], [NSNumber numberWithFloat:watermelon.frame.origin.y], [NSNumber numberWithFloat:mouth.frame.origin.y], nil];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated

@@ -31,6 +31,11 @@
     // Connected
     IBOutlet UIImageView *connectedIndicator;
     
+    // Arrays
+    NSArray *allFruitVC;
+    NSArray *fruitPositionsX;
+    NSArray *fruitPositionsY;
+    
 }
 
 @end
